@@ -32,7 +32,7 @@ try:
         print("Tulevikus ei saanud visiidil käia.")
     else:
         print("Viimane külastus oli: " + kuupäev_str(külastuse_kuupäev))
-        uus_külastus = aarvuta_visiidi_kuupäev(külastuse_kuupäev)
+        uus_külastus = arvuta_visiidi_kuupäev(külastuse_kuupäev)
         print("Peaksid minema uuele visiidile umbes: " + kuupäev_str(uus_külastus))
 except Exception as verivorst:
     print("Sisestasid kuupäeva vales formaadis!")
